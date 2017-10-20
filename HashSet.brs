@@ -1,9 +1,9 @@
 '******************************************************************'
-'File: Data_Structures
+'File: HashSet
 'Author: Jason Dixon
-'Description: data structure wrappers using Associative Arrays
+'Description: hashset data structure wrapper using Associative Array
 '******************************************************************'
-Function Data_Structures() as Object
+Function HashSet() as Object
     this = {
         HashSetInit:        HashSet_Init
         addToHashSet:       HashSet_Add
